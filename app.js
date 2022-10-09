@@ -1,4 +1,5 @@
-fetch("http://ipwho.is/")
+window.addEventListener("load", function() {
+    fetch("http://ipwho.is/")
 .then(response => response.json())
 .then(data => {
     flag.style.display = "flex";
@@ -14,3 +15,5 @@ let ip = document.getElementById("ip");
 let map = document.getElementById("map");
 let cityCountry = document.getElementById("cityCountry");
 
+
+})
