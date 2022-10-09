@@ -1,5 +1,5 @@
 window.addEventListener("load", function() {
-    fetch("http://ipwho.is/")
+    fetch("https://ipwho.is/")
 .then(response => response.json())
 .then(data => {
     flag.style.display = "flex";
